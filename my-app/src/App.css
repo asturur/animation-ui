@@ -9,13 +9,16 @@
 .animationBar {
   width: 1000px;
   display: block;
-  height: 40px;
   background-color: cyan;
   border-bottom: 1px solid black;
 }
 
+.animationContainer {
+  display: block;
+  border-top: 1px solid black;
+}
+
 .animation {
-  position: absolute;
   background-color: rgba(255, 0, 255, 0.4);
   border-left: 1px solid black;
   border-right: 1px solid black;
