@@ -1,0 +1,35 @@
+.App {
+  width: 1000px;
+}
+
+.slider {
+  width: 1000px;
+}
+
+.animationBar {
+  width: 1000px;
+  display: block;
+  height: 40px;
+  background-color: cyan;
+  border-bottom: 1px solid black;
+}
+
+.animation {
+  position: absolute;
+  background-color: rgba(255, 0, 255, 0.4);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.timeIndicator {
+  position: absolute;
+  top: 0px;
+  display: inline-block;
+  width: 1px;
+  border-left: 1px solid red;
+  height: 100%;
+}
+
+.timeline {
+  position: relative;
+}
